@@ -1,0 +1,30 @@
+{
+  "name": "vanilla-js-boilerplate",
+  "version": "1.0.0",
+  "description": "Vanilla JavaScript boilerplate with Parcel",
+  "main": "index.js",
+  "scripts": {
+    "predev": "rm -rf dist/ .cache/",
+    "dev": "parcel public/index.html -p 3000",
+    "build": "parcel build public/index.html --out-dir build --public-url ./",
+    "start": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arish-Shah/vanilla-js-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arish-Shah/vanilla-js-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Arish-Shah/vanilla-js-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/runtime-corejs2": "^7.9.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
